@@ -32,7 +32,7 @@
 </script>
 
 <header aria-label={ariaLabel} class={cx('--header')} role="banner">
-  {#if winWidth < 1056}
+  {#if winWidth < 1056 && sideNavMenu }
     <HamburgerMenu bind:isOpen={isSideNavOpen} />
   {/if}
   <a class={cx('--header__name')} {href}>
