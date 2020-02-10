@@ -42,5 +42,5 @@
     on:mouseleave
     class={cx('--skeleton__text', heading && '--skeleton__heading', className)}
     style={`width: ${width};`}
-    {style} />
+     />
 {/if}
